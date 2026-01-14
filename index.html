@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College GPA Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="home-screen">
+<header><h1>College GPA Calculator</h1></header>
+<main>
+<button id="add-semester">Add Semester</button>
+<button id="delete-semester">Delete Semester</button>
+
+<section id="semesters-container">
+<div class="semester-box">
+    <h3>Semester 1</h3><!-- Semesters will be dynamically added here -->
+</div>
+
+
+    
+
+</section>
+</main>
+</div>
+<div id="semester-screen" style="display:none;">
+    <header><h1>College GPA Calculator</h1></header>
+    <div class="semester-header">
+    <h2 id="semester-title"></h2>
+    <h3>Term GPA: <span id="term-gpa">0.00</span></h3>
+    </div>
+    <div id="class-list"></div>
+    
+    <button id="add-class">Add Class</button>
+    <button id="delete-class">Delete Class</button>
+<button id="back-btn">Back</button>
+</div>
+<h2 style = "color: #335765">Cumulative GPA: <span id="overall-gpa">0.00</span></h2>
+<div>
+<footer>© 2025 College GPA Calculator</footer>    
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

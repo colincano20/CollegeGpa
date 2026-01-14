@@ -1,0 +1,135 @@
+.semester-box {
+   width: 100%;
+   padding: 5px;
+   border: 1px solid #ccc;
+   margin-bottom: 10px;
+   cursor: pointer;
+   border-radius: 8px;
+   background-color: #B6D9E0;
+   color: #335765;
+}
+.semester-box:hover {
+   background: #f1f1f1;
+}
+.semester-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;  
+
+  margin-bottom: 16px;
+}
+#semester-title {
+  margin: 0;
+  color: #335765;
+  font-size: 20px;
+}
+#term-gpa {
+  font-size: 20px; /* 14 is before */
+  color: black; 
+  opacity: 1.0; /* 0.8 is before */
+  
+}
+
+#term-gpa span {
+  font-weight: 600;
+  margin-left: 8px;
+  color: #7F543D;
+}
+body {
+   font-family: Arial, sans-serif;
+   background-color: #DBE2DC;
+   margin: 0;
+   padding: 20px;
+}
+header {
+   text-align: center;
+   margin-bottom: 20px;
+   color: #335765;
+   border-bottom: black 1px  solid;
+   
+}
+
+#add-semester {
+   background-color: #74A8A4;
+   color: #FFFFFF;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor:grab;
+   margin-bottom: 20px;
+}
+#add-class {
+   background-color: #74A8A4;
+   color: #FFFFFF;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor:grab;
+   margin-bottom: 20px;
+}
+#delete-semester {
+   background-color: #7F543D;
+   color: #FFFFFF;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor:grab;
+   margin-bottom: 20px;
+}
+#delete-class {
+   background-color: #7F543D;
+   color: #FFFFFF;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor:grab;
+   margin-bottom: 20px;
+}
+#back-btn {
+   background-color: #DBE2DC;
+   color: #335765;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor:grab;
+   margin-bottom: 20px;
+   text-decoration: none;
+}
+
+footer {
+   text-align: center;
+   margin-top: 20px;
+   color: #335765;
+}
+#class-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  margin-top: 16px;
+}
+.class-row {
+  display: grid;
+  grid-template-columns: 1.0fr 0.8fr 0.8fr; 
+  gap: 12px;
+
+  padding: 6px 8px;
+  border-radius: 12px;
+
+  background: #DBE2DC;
+ 
+}
+.class-row input,
+.class-row select {
+  height: 35px;
+  padding: 8px 10px;
+
+  border-radius: 8px;
+  border: 1px solid #d1d5db; 
+
+  font-size: 14px;
+  background: #ffffff;
+  color: #1f2937;
+
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
